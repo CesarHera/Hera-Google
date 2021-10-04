@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #1d1f20; */
+}
+
+
+
+.header {
+    display: flex;
+    /* background-color: #000; */
+    width: 100vw;
+    max-width: 100%;
+    height: 5rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+/* .hamburger-icon {
+    background-color: blue;
+    width: 20%;
+    height: 100%;
+} */
+
+.nav {
+    /* background-color: red; */
+    width: 53%;
+    height: 100%;
+}
+.nav ul {
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.nav ul li {
+    color: #70757a;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 15px 8px 15px 8px;
+}
+.nav ul li:nth-child(1) {
+    color: #4285f4;
+    border-bottom: 2px solid #4285f4;
+}
+
+
+.options-logo-container {
+    /* background-color: green; */
+    width: 18%;
+    height: 100%;
+    background-image: url('https://icon-library.com/images/dots-icon/dots-icon-20.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 23px;
+    margin-left: 8px;
+}
+
+.profile-logo-container {
+    /* background-color: rgb(0, 225, 255); */
+    width: 16%;
+    height: 100%;
+    
+}
+.profile-logo-container div {
+    height: 35px;
+    width: 35px;
+    background-image: url('https://lh3.googleusercontent.com/-XBEq8xKPbQc/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucktA92i-79kRaYoxkW3ehCeneEFmA/photo.jpg?sz=46');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px;
+    border-radius: 50%;
+}
+
+
+
+.main {
+    height: 80vh;
+    padding: 6rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google-logo-container {
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+}
+.google-logo-container img{
+    width: 55%;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    border-radius: 2rem;
+    padding: .7rem;
+    border: 1px solid #dadce0;
+    margin-top: 3.1rem;
+}
+
+.search-icon {
+    height: 100%;
+    width: 15%;
+    border: 0;
+    background-color: rgb(0,0,0,0);
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.search-field {
+    border: 0;
+    height: 100%;
+    width: 70%;
+}
+.search-field:focus {
+    outline: none;
+}
+
+.micro-icon {
+    height: 100%;
+    width: 15%;
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.offered {
+    color: #3c4043;
+    font-size: 1.3rem;
+    margin-top: 2.4rem;
+}
+.offered a {
+    padding: 0 .5rem;
+    text-decoration: none;
+    color: #4285f4;
+}
+
+
+
+.footer {
+    width: 100%;
+}
+
+.footer div {
+    width: 100%;
+    height: 3.6rem;
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.6);
+    padding: 0.8rem;
+}
+.footer div ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+.footer div ul li{
+    display: inline;
+}
+
+.footer div:nth-child(1) {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer div:nth-child(2) {
+    font-size: 1.31rem;
+    width: 100%;
+    height: 4rem;
+}
+
+.footer div:nth-child(3) {
+    height: 4rem;
+    font-size: 1.31rem;
+}

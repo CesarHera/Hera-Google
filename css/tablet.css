@@ -1,7 +1,8 @@
+.hamburger-icon-container {
+    width: 8%;
+}
+
 .hamburger-icon {
-    fill:#70757a;
-    width:5%;
-    height:80%;
     margin-right: 10px;
 }
 

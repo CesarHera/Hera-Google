@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+main div {
+    width: 100px;
+    height: 100px;
+}
+
+main div:nth-child(1) {
+    background-color: #eee;
+}
+main div:nth-child(2) {
+    background-color: #aaa;
+}
+main div:nth-child(3) {
+    background-color: #000;
+    /* justify-self: flex-end; */
+}

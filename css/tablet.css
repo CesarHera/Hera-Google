@@ -1,0 +1,58 @@
+.hamburger-icon {
+    fill:#70757a;
+    width:5%;
+    height:80%;
+    margin-right: 10px;
+}
+
+.nav {
+    width: 82%;
+}
+
+.options-logo-container {
+    width: 5%;
+}
+
+.profile-logo-container {
+    width: 6%;
+    display: flex;
+    justify-content:flex-end;
+}
+.profile-logo-container div {
+    height: 32px;
+    width: 32px;
+}
+
+
+
+.main {
+    padding: 5.7rem 1.5rem 6rem 1.5rem;
+
+}
+
+.google-logo-container img{
+    width: 51%; 
+}
+
+.search-icon {
+    width: 7.5%;
+}
+
+.search-field {
+    width: 85%;
+}
+
+.micro-icon {
+    width: 7.5%;
+}
+
+.footer div ul{
+    justify-content: center;
+}
+.footer div ul li{
+    margin: 0 1.4rem;
+}
+
+.footer div:nth-child(3) {
+    padding-top: 0;
+}
